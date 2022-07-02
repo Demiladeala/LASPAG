@@ -202,7 +202,7 @@ section{
 .welcome p{
     color: #7c7c7c;
     padding: 0px 0px;
-    font-size: 2vmin;
+    font-size: 3vmin;
 }
 .row .col50{
     width: 48%;
@@ -210,7 +210,7 @@ section{
 .titleText{
     color: #111;
     font-size: 2em;
-    font-weight: 100;
+    font-weight: 300;
 }
 .titleText span{
     color: #000;
@@ -283,7 +283,7 @@ section{
     background-size: cover;
 }
 .affiliate{
-    background: linear-gradient(rgba(37, 37, 37, 0.457),rgba(24, 23, 23, 0.461)), url(img/picture.jpg);
+    background: url(img/affiliate-red-bg.jpg);
     background-size: cover;
 }
 .newsletterForm{
@@ -585,6 +585,10 @@ header.sticky img{
         height: 300px;
         margin-top: 20px;
     }
+    .row .col50 .imgBx img{
+        width: 100%;
+        background-size: contain;
+    }
     .menu .content{
         margin-top: 20px;
     }
@@ -604,7 +608,7 @@ header.sticky img{
         font-weight: 300;
     }
     .affiliate{
-        background-image: url(img/affiliate-mobile.jpg);
+        background-image: url(img/affiliate-red-bg.jpg);
         background-size: cover;
     }
     .newsletterForm{
